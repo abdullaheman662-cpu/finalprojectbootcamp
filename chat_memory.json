@@ -1,0 +1,18 @@
+[
+    {
+        "role": "user",
+        "parts": [
+            {
+                "text": "give me biryani recipe"
+            }
+        ]
+    },
+    {
+        "role": "model",
+        "parts": [
+            {
+                "text": "Ah, an excellent choice! Biryani is a culinary masterpiece.\n\nTo ensure we craft the perfect, waste-conscious Biryani tailored to your kitchen, I first need to understand your current pantry.\n\nPlease tell me, what ingredients do you currently have on hand for a Biryani? I'll then identify any gaps. \u23f1\ufe0f Analyzing kitchen gaps..."
+            }
+        ]
+    }
+]
