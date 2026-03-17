@@ -7,7 +7,7 @@ import streamlit as st
 # --- 1. EXISTING LOGIC (PRESERVED) ---
 load_dotenv()
 if "GEMINI_API_KEY" in st.secrets:
-    api_key = st.secrets["GENMINI_API_KEY"]
+    api_key = st.secrets["GEMINI_API_KEY"]
 else:
     api_key = os.getenv("GEMINI_API_KEY")
 
