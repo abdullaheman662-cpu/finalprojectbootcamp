@@ -6,7 +6,11 @@ import streamlit as st
 
 # --- 1. EXISTING LOGIC (PRESERVED) ---
 load_dotenv()
-api_key = os.getenv("GEMINI_API_KEY")
+if "GEMINI_API_KEY" in st.secrets:
+    api_key = st.secrets["GENMINI_API_KEY"]
+else:
+    api_key = os.getenv("GEMINI_API_KEY")
+
 FILE_NAME = "chat_memory.json"
 
 def load_data():
